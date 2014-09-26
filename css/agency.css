@@ -264,15 +264,16 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    /*background-image: url(../img/header-bg.jpg);*/
+    background-attachment: scroll; /* not this*/
     background-image: url(../img/universe-compressed-compressed.jpg);
-    background-position: center center;
-    background-repeat: none;
+    background-position: center center;  /* not this*/
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+            
+    
 }
 
 header .intro-text {
@@ -295,6 +296,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    text-shadow: 0 0 7px #000;
 }
 
 @media(min-width:768px) {
